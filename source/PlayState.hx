@@ -3551,6 +3551,4 @@ class PlayState extends MusicBeatState
 				SONG = cleanedSong;
 			}
 		}
-
-	var curLight:Int = 0;
 }
