@@ -18,6 +18,11 @@ class GameOverSubstate extends MusicBeatSubstate
 	{
 		var daStage = PlayState.Stage.curStage;
 		var daBf:String = '';
+		switch (PlayState.boyfriend.curCharacter)
+		{
+			default:
+				daBf = 'bf';
+		}
 
 		super();
 
