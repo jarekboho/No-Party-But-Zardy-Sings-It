@@ -10,7 +10,6 @@ import flixel.addons.effects.chainable.FlxWaveEffect;
 class Stage
 {
     public var curStage:String = '';
-    public var halloweenLevel:Bool = false;
     public var camZoom:Float;
     public var hideLastBG:Bool = false;
     public var tweenDuration:Float = 2;
@@ -25,7 +24,6 @@ class Stage
     {
         this.curStage = daStage;
         camZoom = 1.05;
-        halloweenLevel = false;
 		if (PlayStateChangeables.Optimize) return;
 
 						camZoom = 0.7;
